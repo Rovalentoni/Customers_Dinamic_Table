@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela dinâmica</title>
+    <script src="sorttable.js"></script>
+    <link rel="stylesheet" href="BasicCSS.css">
+
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: center;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <table class="sortable">
+        <thead>
+            <th>Nome</th>
+            <th>Data de Nascimento</th>
+            <th>Habilidade</th>
+            <th>Ações</th>
+
+        </thead>
+        <tbody id="tabelinha"></tbody>
+
+    </table>
+
+    <div id="divgreen" class="divadd">
+        <div>
+            <label>Nome do Cliente.</label>
+            <div><input type="text" id="nomeid"></div>
+        </div>
+
+        <div>
+            <label>Data de nascimento do Cliente.</label>
+            <div><input type="text" id="dataid"></div>
+        </div>
+
+        <div>
+            <label>Habilidade do Cliente.</label>
+            <div><input type="text" id="profid"></div>
+        </div>
+        <button onclick="savefunction()" id="savenewbtn" class="button">Salvar</button> 
+    </div>
+
+
+    <div id="editid" class="divsave">
+        
+        <div><label>Novo nome do Cliente.</label><div><input type="text" id="editnomeid"></div>
+        </div><div><label>Nova data de nascimento do Cliente.</label><div><input type="text" id="editdataid"></div> 
+        </div><div><label>Nova habilidade do Cliente.</label><div><input type="text" id="editprofid"></div></div>
+        <div><input type="hidden" id="idEscondido"></div>
+        <button onclick="editsavefunction(idEscondido.value)" id="saveeditbtn" class="buttonsave">Salvar Edição</button>
+        <button onclick="voltarAdd()" id="voltarAddid" class="buttonvoltar"> Voltar </button>
+
+    </div>
+
+   
+
+    
+
+
+
+
+
+    <script src="Pratica.js"></script>
+</body>
+
+</html>

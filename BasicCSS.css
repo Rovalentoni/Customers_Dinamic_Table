@@ -1,0 +1,120 @@
+.error {
+    border:2px solid red;
+}
+
+.button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 10px 21px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 4px;
+    cursor: pointer;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.buttonsave {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 10px 11px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.divsave {
+    margin: 4px 4px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.divadd {
+    margin: 4px 4px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.buttondel {
+    background-color: #bb4d2c; 
+    border: none;
+    color: white;
+    padding:10px 21px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.buttonvoltar {
+    background-color: #bb4d2c; 
+    border: none;
+    color: white;
+    padding:10px 21px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.buttonedit {
+    background-color: #4c7db6; 
+    border: none;
+    color: white;
+    padding:10px 21px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+    .btn-block {
+    margin-top: 10px;
+    text-align: center;
+    }
+    button {
+        padding: 10px 0;
+        margin: 10px auto;
+        border-radius: 5px; 
+        border: none;
+        background: #1c87c9; 
+        font-size: 14px;
+        font-weight: 600;
+        color: #fff;
+        }
+        button:hover {
+        background: #96dba6;
+        }
+        input {
+            text-align: center;
+            padding: 4px;
+            margin: 10px auto;
+            border-radius: 5px; 
+            width: auto;
+            display: table-cell;
+        }
+
+
+    #editid {
+        display:none;
+    }    
+
+    
+
+       
+     
